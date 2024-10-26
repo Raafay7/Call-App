@@ -1,0 +1,94 @@
+/* PersonProfile.css */
+
+/* General styles for the profile container */
+.profile-container {
+    max-width: 600px; /* Set a maximum width for the profile container */
+    margin: 20px auto; /* Centering the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+.profile-container h2 {
+    color: #333; /* Dark gray color for the heading */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Profile information styles */
+.profile-info {
+    margin-bottom: 20px; /* Space below the profile info */
+    padding: 15px; /* Padding inside the profile info section */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Text styles for profile info */
+.profile-info p {
+    color: #666; /* Medium gray color for the paragraph */
+    font-size: 18px; /* Font size for the profile info */
+    margin: 10px 0; /* Space above and below each paragraph */
+}
+
+/* Button group styles */
+.button-group {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Space above the button group */
+}
+
+/* Common button styles */
+.button-group button {
+    flex-grow: 1; /* Allow buttons to grow equally */
+    padding: 12px 20px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Change cursor on hover */
+    margin: 0 10px; /* Space between buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for background and scaling */
+}
+
+/* Edit button styles */
+.edit-button {
+    background-color: #28a745; /* Green color for edit button */
+    color: white; /* White text */
+}
+
+.edit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Delete button styles */
+.delete-button {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white; /* White text */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Back button styles */
+.back-button {
+    display: block; /* Ensure the Back button takes full width */
+    width: 100%; /* Full width for the button */
+    padding: 12px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for the button */
+    margin-top: 20px; /* Add margin above the Back button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    text-align: center; /* Center the text inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}

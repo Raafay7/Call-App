@@ -1,0 +1,108 @@
+/* src/Components/Signup.css */
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+body {
+    background-color: #f0f2f5; /* Light background color for the whole page */
+    font-family: 'Roboto', sans-serif; /* Body font */
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease; /* Transition effect on hover */
+}
+
+.signup-container:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Header font */
+    font-weight: 600; /* Bolder font for the header */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Darker color for labels */
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.2s ease; /* Smooth border transition */
+}
+
+.input-field:focus {
+    border-color: #007bff; /* Highlighted border on focus */
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+.signup-button {
+    display: block; /* Make the button a block element */
+    width: 100%; /* Full width */
+    max-width: 300px; /* Max width to keep button centered */
+    padding: 12px;
+    background-color: #007bff; /* Primary color for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold; /* Bolder font for button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Button transition effects */
+    margin: 20px auto 0; /* Center button with margin */
+}
+
+.signup-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.redirect-link {
+    text-align: center;
+    margin-top: 15px; /* Added margin for spacing */
+    color: #777; /* Lighter color for the redirect text */
+}
+
+.redirect-link a {
+    color: #007bff; /* Color for the link */
+    text-decoration: none;
+    font-weight: bold; /* Bold text for link */
+    transition: color 0.2s ease; /* Transition effect on hover */
+}
+
+.redirect-link a:hover {
+    color: #0056b3; /* Darker color on hover */
+    text-decoration: underline; /* Underline effect on hover */
+}

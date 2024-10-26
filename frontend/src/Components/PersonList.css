@@ -1,0 +1,137 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;700&display=swap');
+
+/* General styles for the Person List component */
+body {
+    font-family: 'Lato', sans-serif; /* Use Lato for body text */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+    font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px; /* Slightly larger font for better visibility */
+    font-weight: 700; /* Bold weight for headings */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual list item styles */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+    font-size: 16px; /* Adjust the font size for list items */
+    font-weight: 400; /* Normal weight for list items */
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Make the links bold for better visibility */
+}
+
+/* Delete and Edit button styles */
+button.delete, a.edit {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Lato', sans-serif;
+}
+
+a.edit {
+    background-color: #007BFF;
+}
+
+/* Hover effects */
+button.delete:hover, a.edit:hover {
+    transform: scale(1.05);
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+a.edit:hover {
+    background-color: #0056b3;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Link for adding a person */
+.add-person-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+a.add-person {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* Medium weight for the Add Person button */
+    font-size: 16px;
+}
+
+/* Add person link hover effect */
+a.add-person:hover {
+    background-color: #0056b3;
+}
+
+/* Loading and error message styles */
+.loading, .error {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Success message styling */
+.success {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Bold weight for success messages */
+}

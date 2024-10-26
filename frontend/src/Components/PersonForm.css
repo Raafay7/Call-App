@@ -1,0 +1,73 @@
+/* General styles for the PersonForm component */
+.person-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center; /* Center the placeholder text */
+}
+
+.filled {
+  border-color: #007BFF;
+}
+
+.person-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.person-button:disabled {
+  background-color: #ccc;
+}
+
+.person-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.spinner {
+  text-align: center;
+  font-size: 16px;
+  color: #007BFF;
+}

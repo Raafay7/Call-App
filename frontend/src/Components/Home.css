@@ -1,0 +1,114 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 600px; /* Set a maximum width */
+    margin: 50px auto; /* Centering the container */
+    padding: 30px; /* Padding inside the container */
+    background-color: #fff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+h2 {
+    color: #333; /* Dark gray color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center align the heading */
+    font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+}
+
+/* Paragraph styles */
+p {
+    color: #666; /* Medium gray color for the paragraph */
+    text-align: center; /* Center align the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button container styles */
+.button-container {
+    display: flex; /* Use flexbox for button layout */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 15px; /* Space between buttons */
+    width: 100%;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF; /* Bootstrap primary blue */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Animation for hover effects */
+    width: 100%; /* Full width buttons */
+    max-width: 250px; /* Limit the button width */
+}
+
+/* Ensure both buttons have the same width */
+.button-container > a {
+    width: 100%; /* Ensure the links take full width */
+}
+
+/* Button hover effects */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    button {
+        font-size: 14px; /* Smaller font size for buttons */
+    }
+}
+
+/* Error message styling */
+.error {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center align error messages */
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+/* Success message styling */
+.success {
+    color: green; /* Green color for success messages */
+    text-align: center; /* Center align success messages */
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+/* Redirect link styling */
+.redirect-link {
+    text-align: center; /* Center align redirect links */
+    margin-top: 15px; /* Added margin for spacing */
+    color: #777; /* Lighter color for the redirect text */
+}
+
+/* Redirect link color */
+.redirect-link a {
+    color: #007bff; /* Color for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for link */
+    transition: color 0.2s ease; /* Transition effect on hover */
+}
+
+/* Redirect link hover effect */
+.redirect-link a:hover {
+    color: #0056b3; /* Darker color on hover */
+    text-decoration: underline; /* Underline effect on hover */
+}
